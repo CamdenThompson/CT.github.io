@@ -1,22 +1,22 @@
 html {
-    background-color: aquamarine;
+    background-color: #4f4032;
 }
 
 #header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 0, 212, 0.5);
+    background-color: #baa593;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 5);
-    width: 98.25%;
+    width: 100%;
     height: 10vh;
 }
 
 .logo {
     position: relative;
     z-index: 10;
-    transform: translateY(2vh);
-    padding-right: 30vw;
+    scale: .5;
+    
 }
 
 #navbar {
@@ -28,7 +28,7 @@ html {
 
 #navbar li {
     list-style: none;
-    padding: 0 2vw;
+    padding: 0 1vw;
     position: relative;
     
 }
@@ -47,22 +47,10 @@ html {
 
 }
 
-#navbar li a.active::after,
-#navbar li a:hover::after{
-    content: "";
-    width: 30%;
-    height: 2px;
-    background-color: rgb(46, 1, 247);
-    position: absolute;
-    bottom: -2px;
-    left: 40px;
-    
-}
-
 #hero {
     background-image: url(images/background1.png);
     height: 70vh;
-    width: 95.50%;
+    width: 97.25%;
     background-position: top 35% right 0;
     background-size: cover;
     padding: 0 25px;
@@ -101,9 +89,9 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 183, 255, 0.5);
+    background-color: #9a7c62;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 5);
-    width: 98.25%;
+    width: 100%;
     height: 10vh;
     margin-top: 3vh;
 }
