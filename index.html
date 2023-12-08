@@ -1,78 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-    <title>Bakery</title>
-</head>
-<body>
-    
-    
-    
-<div class="main">   
-  
-    <section id="header">
-        <a href="#">
-            <img src="images/bakery2.png" class="logo" height="200">
-        </a>
-        
-        <div>
-            
-            <ul id="navbar">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bakery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="header-text">
+                Bakery
+            </a>
+            <nav>
+                <ul>
+                    <li> <a href="shop.html"> Shop </a> </li>
+                    <li> <a href="about.html"> About Me </a> </li>
+                    <li> <a href="contact.html"> Contact </a> </li>
+                    <li> <a href="cart.html"> Cart </a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+            <section class="index-banner">
+                <div class="vertical-center">
+                    <img src="images/bakery2.png" class="logo">
+                    <h2> Welcome to <br> Lalie's Bakery! </h2>
+                    <h1> Homemade baked goods made by Lalie </h1>
+                </div>
                 
-                <li>
-                    <a class="active" href="index.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="shop.html">
-                        Shop
-                    </a>
-                </li>
-                <li>
-                    <a href="blog.html">
-                        Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="about.html">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="cart.html">
-                        <img src="icons/cart.png" height="25">
-                    </a>
-                </li>
+            </section>
+            <section class="index-links">
+                <a href="ingredients.html">
+                    <div class="index-boxlink-1">
+                        <h3> Ingredients </h3>
+                    </div>
+                </a>
+                <a href="shop.html">
+                    <div class="index-boxlink-1">
+                        <h3> Shop </h3>
+                    </div>
+                </a>
+                <a href="about.html">
+                    <div class="index-boxlink-1">
+                        <h3> About Me </h3>
+                    </div>
+                </a>
+                <a href="contact.html">
+                    <div class="index-boxlink-1">
+                        <h3> Contact </h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="index-boxlink-1">
+                        <h3> YouTube Channel </h3>
+                    </div>
+                </a>
+            </section>
+        </main>
+        <footer>
+            <ul class="footer-links-main">
+                <li> <a href="#"> Home </a></li>
+                <li> <a href="#"> Shop </a></li>
+                <li> <a href="#"> About Me </a></li>
+                <li> <a href="#"> Contact </a></li>
+                <li> <a href="#"> Cart </a></li>
             </ul>
-        </div>    
-        
-    </section>
-
-    
-
-    <section id="hero">
-        <div id="one">
-            <h4>Bakery</h4>
-            <h2>Desserts and Baked Goods</h2>
-            <h5>All made by</h5>
-            <button onclick="location.href='shop.html'">
-                Shop Now
-            </button>
-        </div>
-    </section>
-
-    
-</div>
-
-
-</body>
+            <div class="footer-sm">
+                <a href="#"> 
+                    <img src="icons/facebook-logo.png" alt="Facebook Icon">
+                </a>
+                <a href="#">
+                    <img src="icons/twitter-logo.png" alt="Twitter Icon">
+                </a>
+                <a href="#">
+                    <img src="icons/youtube-logo.png" alt="YouTube Icon">
+                </a>
+                
+            </div>
+        </footer>
+    </body>
 </html>
